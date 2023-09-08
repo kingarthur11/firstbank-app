@@ -137,10 +137,3 @@ display: flex;
 flex-wrap: wrap;
 }
 `
-const FeatureWrapper = styled.div`
-.wrap-card {
-display: flex;
-flex-direction: row;
-/* flex-wrap: wrap; */
-}
-`
