@@ -1,5 +1,4 @@
 import React from 'react'
-import Foto from "../assests/shutterstock.png"
 import styled from "styled-components";
 
 
