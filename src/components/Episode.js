@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Bankfoto from "../assests/Firstmonie-100KA-Hap.png"
 import Featurefoto from "../assests/World-Singles.png"
 import BankLogo from "../assests/First-Bank-Logo_Symb.png"
+import Networkfoto from "../assests/firstbank-corporate-.png"
 
 const Episode = () => {
     function TopWind() {
@@ -18,7 +19,7 @@ const Episode = () => {
                     <h3>Recent Episodes</h3>
                 </div>
                 <div class="container">
-                    <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+                    <div class="row g-3">
                         <div class="col">
                         <div class="episode-list">ALL</div>
                         </div>
@@ -39,113 +40,123 @@ const Episode = () => {
             </div>
         </PodcastWrapper>
         <CardWrapper>
-            <div className='container wrap-card'>
-                <div class="card m-2" style={{maxWidth: '540px'}}>
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src={Foto} class="img-fluid rounded-start w-100 h-100" alt="Foto" />
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">How To Thrive In An Economic Slowdown</h5>
-                                <p class="card-text">With about 17.4 million enterprises, it is no denial that SMEs account forms approximately 50% and 90% of both industrial jobs and the manufacturing sector respectively.</p>
-                                <div className='d-flex align-items-center justify-content-evenly'>
-                                    <i class="fa-solid fa-rotate-right"></i>
-                                    <i class="fa-solid fa-circle-play"></i>
-                                    <i class="fa-solid fa-rotate-left"></i>
-                                    <small class="text-muted">00:00</small>
-                                    <input type="range" class="form-range" id="customRange1" />
-                                    <small class="text-muted">01:20</small>
-                                    <i class="fa-solid fa-volume-high"></i>
-                                    <i class="fa-solid fa-download"></i>
-                                    <i class="fa-solid fa-share-nodes"></i>
+            <div className='container'>
+                    <div class="row g-3">
+                    <div class="col-md-6 col-12">
+                        <div class="card m-2">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src={Foto} class="img-fluid rounded-start w-100" alt="Foto" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">How To Thrive In An Economic Slowdown</h5>
+                                        <p class="card-text">With about 17.4 million enterprises, it is no denial that SMEs account forms approximately 50% and 90% of both industrial jobs and the manufacturing sector respectively.</p>
+                                        <div className='d-flex align-items-center justify-content-evenly'>
+                                            <i class="fa-solid fa-rotate-right mx-1"></i>
+                                            <i class="fa-solid fa-circle-play mx-1"></i>
+                                            <i class="fa-solid fa-rotate-left mx-1"></i>
+                                            <small class="text-muted mx-1">00:00</small>
+                                            <input type="range" class="form-range mx-1" id="customRange1" />
+                                            <small class="text-muted mx-1">01:20</small>
+                                            <i class="fa-solid fa-volume-high mx-1"></i>
+                                            <i class="fa-solid fa-download mx-1"></i>
+                                            <i class="fa-solid fa-share-nodes mx-1"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="card m-2" style={{maxWidth: '540px'}}>
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src={Foto} class="img-fluid rounded-start w-100 h-100" alt="Foto" />
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">How To Thrive In An Economic Slowdown</h5>
-                                <p class="card-text">With about 17.4 million enterprises, it is no denial that SMEs account forms approximately 50% and 90% of both industrial jobs and the manufacturing sector respectively.</p>
-                                <div className='d-flex align-items-center justify-content-evenly'>
-                                    <i class="fa-solid fa-rotate-right"></i>
-                                    <i class="fa-solid fa-circle-play"></i>
-                                    <i class="fa-solid fa-rotate-left"></i>
-                                    <small class="text-muted">00:00</small>
-                                    <input type="range" class="form-range" id="customRange1" />
-                                    <small class="text-muted">01:20</small>
-                                    <i class="fa-solid fa-volume-high"></i>
-                                    <i class="fa-solid fa-download"></i>
-                                    <i class="fa-solid fa-share-nodes"></i>
+                    <div class="col-md-6 col-12">
+                        <div class="card m-2" >
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src={Foto} class="img-fluid rounded-start w-100 h-100" alt="Foto" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">How To Thrive In An Economic Slowdown</h5>
+                                        <p class="card-text">With about 17.4 million enterprises, it is no denial that SMEs account forms approximately 50% and 90% of both industrial jobs and the manufacturing sector respectively.</p>
+                                        <div className='d-flex align-items-center justify-content-evenly'>
+                                            <i class="fa-solid fa-rotate-right mx-1"></i>
+                                            <i class="fa-solid fa-circle-play mx-1"></i>
+                                            <i class="fa-solid fa-rotate-left mx-1"></i>
+                                            <small class="text-muted mx-1">00:00</small>
+                                            <input type="range" class="form-range mx-1" id="customRange1" />
+                                            <small class="text-muted mx-1">01:20</small>
+                                            <i class="fa-solid fa-volume-high mx-1"></i>
+                                            <i class="fa-solid fa-download mx-1"></i>
+                                            <i class="fa-solid fa-share-nodes mx-1"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="card m-2" style={{maxWidth: '540px'}}>
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src={Foto} class="img-fluid rounded-start w-100 h-100" alt="Foto" />
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">How To Thrive In An Economic Slowdown</h5>
-                                <p class="card-text">With about 17.4 million enterprises, it is no denial that SMEs account forms approximately 50% and 90% of both industrial jobs and the manufacturing sector respectively.</p>
-                                <div className='d-flex align-items-center justify-content-evenly'>
-                                    <i class="fa-solid fa-rotate-right"></i>
-                                    <i class="fa-solid fa-circle-play"></i>
-                                    <i class="fa-solid fa-rotate-left"></i>
-                                    <small class="text-muted">00:00</small>
-                                    <input type="range" class="form-range" id="customRange1" />
-                                    <small class="text-muted">01:20</small>
-                                    <i class="fa-solid fa-volume-high"></i>
-                                    <i class="fa-solid fa-download"></i>
-                                    <i class="fa-solid fa-share-nodes"></i>
+                    <div class="col-md-6 col-12">
+                        <div class="card m-2" >
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src={Foto} class="img-fluid rounded-start w-100 h-100" alt="Foto" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">How To Thrive In An Economic Slowdown</h5>
+                                        <p class="card-text">With about 17.4 million enterprises, it is no denial that SMEs account forms approximately 50% and 90% of both industrial jobs and the manufacturing sector respectively.</p>
+                                        <div className='d-flex align-items-center justify-content-evenly'>
+                                            <i class="fa-solid fa-rotate-right mx-1"></i>
+                                            <i class="fa-solid fa-circle-play mx-1"></i>
+                                            <i class="fa-solid fa-rotate-left mx-1"></i>
+                                            <small class="text-muted mx-1">00:00</small>
+                                            <input type="range" class="form-range mx-1" id="customRange1" />
+                                            <small class="text-muted mx-1">01:20</small>
+                                            <i class="fa-solid fa-volume-high mx-1"></i>
+                                            <i class="fa-solid fa-download mx-1"></i>
+                                            <i class="fa-solid fa-share-nodes mx-1"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="card m-2" style={{maxWidth: '540px'}}>
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src={Foto} class="img-fluid rounded-start w-100 h-100" alt="Foto" />
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">How To Thrive In An Economic Slowdown</h5>
-                                <p class="card-text">With about 17.4 million enterprises, it is no denial that SMEs account forms approximately 50% and 90% of both industrial jobs and the manufacturing sector respectively.</p>
-                                <div className='d-flex align-items-center justify-content-evenly'>
-                                    <i class="fa-solid fa-rotate-right"></i>
-                                    <i class="fa-solid fa-circle-play"></i>
-                                    <i class="fa-solid fa-rotate-left"></i>
-                                    <small class="text-muted">00:00</small>
-                                    <input type="range" class="form-range" id="customRange1" />
-                                    <small class="text-muted">01:20</small>
-                                    <i class="fa-solid fa-volume-high"></i>
-                                    <i class="fa-solid fa-download"></i>
-                                    <i class="fa-solid fa-share-nodes"></i>
+                    <div class="col-md-6 col-12">
+                        <div class="card m-2" >
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src={Foto} class="img-fluid rounded-start w-100 h-100" alt="Foto" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">How To Thrive In An Economic Slowdown</h5>
+                                        <p class="card-text">With about 17.4 million enterprises, it is no denial that SMEs account forms approximately 50% and 90% of both industrial jobs and the manufacturing sector respectively.</p>
+                                        <div className='d-flex align-items-center justify-content-evenly'>
+                                            <i class="fa-solid fa-rotate-right mx-1"></i>
+                                            <i class="fa-solid fa-circle-play mx-1"></i>
+                                            <i class="fa-solid fa-rotate-left mx-1"></i>
+                                            <small class="text-muted mx-1">00:00</small>
+                                            <input type="range" class="form-range mx-1" id="customRange1" />
+                                            <small class="text-muted mx-1">01:20</small>
+                                            <i class="fa-solid fa-volume-high mx-1"></i>
+                                            <i class="fa-solid fa-download mx-1"></i>
+                                            <i class="fa-solid fa-share-nodes mx-1"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>      
                 </div>
             </div>
-           
+            
         </CardWrapper>
         <FirstMonieWrapper>
             <div class="container px-4">
-                <div class="row gx-5">
-                    <div class="col">
+                <div class="row g-3">
+                    <div class="col-md-6">
                         <div className='position-relative'>
-                            <div class="card" style={{width: '30rem', height: '20rem'}}>
-                                <div className='card-image'><img src={Bankfoto} class="img-fluid rounded-start" alt="Bankfoto" /></div>
+                            <div class="card" style={{ height: '20rem'}}>
+                                <div className='card-image d-none d-lg-block'><img src={Bankfoto} class="img-fluid rounded-start" alt="Bankfoto" /></div>
                                 <div class="card-body position-relative">
                                     <h5 class="card-title">Firstmonie</h5>
                                     <p class="card-text">Stay one step ahead of your finances with Firstmonie, our mobile and e-banking service designed with #YouFirst in mind.</p>
@@ -154,13 +165,13 @@ const Episode = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <div className='position-relative'>
-                            <div class="card" style={{width: '30rem', height: '20rem'}}>
-                                <div className='card-image'><img src={Bankfoto} class="img-fluid rounded-start" alt="Bankfoto" /></div>
+                            <div class="card" style={{ height: '20rem'}}>
+                                <div className='card-image d-none d-lg-block'><img src={Networkfoto} class="img-fluid rounded-start" alt="Networkfoto" /></div>
                                 <div class="card-body position-relative">
-                                    <h5 class="card-title">Firstmonie</h5>
-                                    <p class="card-text">Stay one step ahead of your finances with Firstmonie, our mobile and e-banking service designed with #YouFirst in mind.</p>
+                                    <h5 class="card-title">Youfirst</h5>
+                                    <p class="card-text">Giant strides, big leaps and innovation has formed the basis of our heritage over the years. Indeed, we are woven into the fabric of society. We are rooted in tradition but constantly leaning towards the future. We are excited about the days ahead. #EnablingYou #YouFirst</p>
                                     <button className='position-absolute start-50 translate-middle'>LEARN MORE</button>
                                 </div>
                             </div>
@@ -168,37 +179,15 @@ const Episode = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className='container d-flex align-items-center justify-content-between'>
-                <div className='position-relative'>
-                    <div class="card" style={{width: '30rem', height: '20rem'}}>
-                        <div className='card-image'><img src={Bankfoto} class="img-fluid rounded-start" alt="Bankfoto" /></div>
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Firstmonie</h5>
-                            <p class="card-text">Stay one step ahead of your finances with Firstmonie, our mobile and e-banking service designed with #YouFirst in mind.</p>
-                            <button className='position-absolute start-50 translate-middle'>LEARN MORE</button>
-                        </div>
-                    </div>
-                </div>
-                <div className='position-relative'>
-                    <div class="card" style={{width: '30rem', height: '20rem'}}>
-                        <div className='card-image'><img src={Bankfoto} class="img-fluid rounded-start" alt="Bankfoto" /></div>
-                        <div class="card-body position-relative">
-                            <h5 class="card-title">Firstmonie</h5>
-                            <p class="card-text">Giant strides, big leaps and innovation has formed the basis of our heritage over the years. Indeed, we are woven into the fabric of society. We are rooted in tradition but constantly leaning towards the future. We are excited about the days ahead. #EnablingYou #YouFirst</p>
-                            <button className='position-absolute start-50 translate-middle'>LEARN MORE</button>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
         </FirstMonieWrapper>
         <FeatureWrapper>
             <div className='container'>
                 <p>PODCAST</p>
                 <h3>Recent Episodes</h3>
             </div>
-        <div class="container pt-5">
+        <div class="container py-5">
             <div class="row g-3">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6 col-12">
                     <div className=''>
                         <div class="card">
                             <img src={Featurefoto} class="card-img-top" alt="..." />
@@ -208,7 +197,7 @@ const Episode = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6 col-12">
                     <div className=''>
                         <div class="card">
                             <img src={Featurefoto} class="card-img-top" alt="..." />
@@ -218,7 +207,7 @@ const Episode = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6 col-12">
                     <div className=''>
                         <div class="card">
                             <img src={Featurefoto} class="card-img-top" alt="..." />
@@ -228,7 +217,7 @@ const Episode = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6 col-12">
                     <div className=''>
                     <div class="card">
                         <img src={Featurefoto} class="card-img-top" alt="..." />
@@ -238,7 +227,7 @@ const Episode = () => {
                     </div>
                 </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6 col-12">
                     <div className=''>
                     <div class="card">
                         <img src={Featurefoto} class="card-img-top" alt="..." />
@@ -248,7 +237,7 @@ const Episode = () => {
                     </div>
                 </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6 col-12">
                     <div className=''>
                     <div class="card">
                         <img src={Featurefoto} class="card-img-top" alt="..." />
@@ -257,7 +246,6 @@ const Episode = () => {
                         </div>
                     </div>
                 </div>
-                
                 </div>
             </div>
         </div>
